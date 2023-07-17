@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+  }
+  
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+    font-weight: 700;
+  }
+
+:root {
+    --Tomato: hsl(4, 100%, 67%);
+
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+
+
+    --emailText: var(--Dark-Slate-Grey);
+}
+
+* {
+    font-family: 'Roboto';
+    font-weight: 400;
+
+    box-sizing: border-box;
+
+    transition-duration: 0.5s;
+}
+
+body {
+    margin: 0; padding: 0;
+
+    font-size: 16px;
+    color: var(--Dark-Slate-Grey);
+    background-color: var(--Charcoal-Grey);
+}
+
+.container {
+  height: fit-content;
+  background-color: white;
+}

@@ -1,0 +1,148 @@
+/* DeskTop Design */
+
+@media only screen and (min-width: 700px) and (max-width: 1440px){
+
+    h1 {
+        margin: 0 0 20px 0;
+        font-size: 3rem;
+    }
+
+    ul {
+        margin: 10px 0 0 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    form {
+        margin: 10px 0;
+    }
+
+    .container {
+        min-width: 648px;
+        min-height: 400px;
+
+        width: 80%;
+
+        position: absolute;
+        left: 50%; top: 50%;
+        transform: translate(-50%, -50%);
+
+        border-radius: 30px;
+
+        background-color: white;
+    }
+
+    /* Register Screen Design */
+
+    .register {
+        display: flex; flex-direction: row-reverse;
+        justify-content: space-between;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .content {
+        display: flex; justify-content: center;
+    }
+
+    .illustration {
+        display: flex; align-items: center;
+        max-width: 470px; min-height: 593px;
+        width: 70%;
+        object-fit: cover;
+    }
+
+    .illustration img {
+        content: url('../images/illustration-sign-up-desktop.svg');
+        width: 100%; height: fit-content;
+    }
+
+
+    /* Subscribed Screen Design */
+    .subscribed {
+        max-width: 500px; height: fit-content;
+        padding: 60px;
+    }
+
+    .subscribed .content {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .subscribed button {
+        margin: 30px 0 0 0;
+    }
+
+    .success-icon {
+        margin: 0 0 40px 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        min-width: 928px;
+        min-height: 640px;
+
+        position: absolute;
+        left: 50%; top: 50%;
+        transform: translate(-50%, -50%);
+
+        border-radius: 30px;
+
+        background-color: white;
+    }
+
+    /* Register Screen Design */
+
+    .register {
+        display: flex; flex-direction: row-reverse;
+        justify-content: space-between;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .content {
+        display: flex; justify-content: center;
+    }
+
+    .illustration {
+        display: flex; align-items: center;
+        width: 470px; min-height: 593px;
+        object-fit: cover;
+    }
+
+    .illustration img {
+        content: url('../images/illustration-sign-up-desktop.svg');
+        width: 100%; height: fit-content;
+    }
+
+
+    /* Subscribed Screen Design */
+    .subscribed {
+        max-width: 500px; height: fit-content;
+        padding: 60px;
+    }
+
+    .subscribed .content {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .subscribed button {
+        margin: 30px 0 0 0;
+    }
+
+    .success-icon {
+        margin: 0 0 40px 0;
+    }
+}
+

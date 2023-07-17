@@ -1,0 +1,14 @@
+.subscribed {
+    display: none; flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; padding: 30px;
+}
+
+.subscribed .content {
+    padding: 0;
+    margin: 150px 0 40px 0;
+}
+
+.succes-icon img {
+    width: 80px;
+}
